@@ -15,12 +15,12 @@
 
         public void Add(T item)
         {
-            throw new NotImplementedException();
+            store[counter++] = item;
         }
 
         public T Get(int index)
         {
-            throw new NotImplementedException();
+            return store[index];
         }
     }
 }
